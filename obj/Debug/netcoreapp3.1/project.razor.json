@@ -14392,18 +14392,18 @@
   "RootNamespace": "E_Players_AspNETCore",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\JoViO\\OneDrive\\Documentos\\GitHub\\E-Players_AspNETCore\\Views\\EquipeView\\Index.cshtml",
-      "TargetPath": "Views\\EquipeView\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\JoViO\\OneDrive\\Documentos\\GitHub\\E-Players_AspNETCore\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\JoViO\\OneDrive\\Documentos\\GitHub\\E-Players_AspNETCore\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\JoViO\\OneDrive\\Documentos\\GitHub\\E-Players_AspNETCore\\Views\\Jogador\\Index.cshtml",
+      "TargetPath": "Views\\Jogador\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\JoViO\\OneDrive\\Documentos\\GitHub\\E-Players_AspNETCore\\Views\\Equipe\\Index.cshtml",
+      "TargetPath": "Views\\Equipe\\Index.cshtml",
       "FileKind": "mvc"
     },
     {

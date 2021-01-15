@@ -10,9 +10,10 @@ namespace E_Players_AspNETCore.Models
         
         public string Nome { get; set; }
 
-        public string Imagem { get; set; }
-        
-        
+
+        public string Email { get; set; }
+
+        public string Senha { get; set; }
         
         public int IdEquipe { get; set; }
         
@@ -22,12 +23,6 @@ namespace E_Players_AspNETCore.Models
         {
             CreateFolderAndFile(PATH);
         }
-
-        public string Prepare(Jogador j)
-        {
-            return $"{j.IdJogador};{j.Nome};{j.IdEquipe};{j.Imagem}";
-        }
-
         public void Create(Jogador j)
         {
             string[] linhas = {Prepare(j)};
@@ -35,11 +30,17 @@ namespace E_Players_AspNETCore.Models
             File.AppendAllLines(PATH, linhas);
         }
 
-        public void Delete(int id)
+        public string Prepare(Jogador j)
+        {
+            return $"{j.IdJogador};{j.Nome};{j.Email};{j.Senha}";
+        }
+
+
+        public void Delete(int idJogador)
         {
             List<string> linhas = ReadAllLinesCSV(PATH);
 
-            linhas.RemoveAll(x => x.Split(";")[0] == id.ToString());
+            linhas.RemoveAll(x => x.Split(";")[0] == idJogador.ToString());
             
             RewriteCSV(PATH, linhas);
 
@@ -59,8 +60,8 @@ namespace E_Players_AspNETCore.Models
                 
                 novoJogador.IdJogador = int.Parse(linha [0]);
                 novoJogador.Nome = linha [1];
-                novoJogador.IdEquipe = int.Parse(linha [2]);
-                novoJogador.Imagem = linha [3];
+                novoJogador.Email = linha [2];
+                novoJogador.Senha = linha [3];
 
                 jogadores.Add(novoJogador);
             }
