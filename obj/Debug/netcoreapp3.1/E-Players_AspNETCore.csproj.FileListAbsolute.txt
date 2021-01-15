@@ -19,7 +19,6 @@ C:\Users\JoViO\OneDrive\Documentos\GitHub\E-Players_AspNETCore\obj\Debug\netcore
 C:\Users\JoViO\OneDrive\Documentos\GitHub\E-Players_AspNETCore\obj\Debug\netcoreapp3.1\E-Players_AspNETCore.TagHelpers.input.cache
 C:\Users\JoViO\OneDrive\Documentos\GitHub\E-Players_AspNETCore\obj\Debug\netcoreapp3.1\E-Players_AspNETCore.TagHelpers.output.cache
 C:\Users\JoViO\OneDrive\Documentos\GitHub\E-Players_AspNETCore\obj\Debug\netcoreapp3.1\E-Players_AspNETCore.RazorCoreGenerate.cache
-C:\Users\JoViO\OneDrive\Documentos\GitHub\E-Players_AspNETCore\obj\Debug\netcoreapp3.1\Razor\Views\EquipeView\Index.cshtml.g.cs
 C:\Users\JoViO\OneDrive\Documentos\GitHub\E-Players_AspNETCore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\JoViO\OneDrive\Documentos\GitHub\E-Players_AspNETCore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\JoViO\OneDrive\Documentos\GitHub\E-Players_AspNETCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -35,3 +34,4 @@ C:\Users\JoViO\OneDrive\Documentos\GitHub\E-Players_AspNETCore\obj\Debug\netcore
 C:\Users\JoViO\OneDrive\Documentos\GitHub\E-Players_AspNETCore\obj\Debug\netcoreapp3.1\E-Players_AspNETCore.pdb
 C:\Users\JoViO\OneDrive\Documentos\GitHub\E-Players_AspNETCore\obj\Debug\netcoreapp3.1\E-Players_AspNETCore.genruntimeconfig.cache
 C:\Users\JoViO\OneDrive\Documentos\GitHub\E-Players_AspNETCore\obj\Debug\netcoreapp3.1\E-Players_AspNETCore.csproj.CopyComplete
+C:\Users\JoViO\OneDrive\Documentos\GitHub\E-Players_AspNETCore\obj\Debug\netcoreapp3.1\Razor\Views\Equipe\Index.cshtml.g.cs
