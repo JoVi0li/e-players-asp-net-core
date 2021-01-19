@@ -14392,6 +14392,11 @@
   "RootNamespace": "E_Players_AspNETCore",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\JoViO\\OneDrive\\Documentos\\GitHub\\E-Players_AspNETCore\\Views\\Login\\Index.cshtml",
+      "TargetPath": "Views\\Login\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\JoViO\\OneDrive\\Documentos\\GitHub\\E-Players_AspNETCore\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"

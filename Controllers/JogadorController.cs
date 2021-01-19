@@ -9,14 +9,16 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace E_Players_AspNETCore.Controllers
 {
-    [Route("Joagdor")]
+    [Route("Jogador")]
     public class JogadorController : Controller
     {
         Jogador jogadorModel = new Jogador();
+        Equipe equipeModel = new Equipe();
                 
         [Route("Listar")]
         public IActionResult Index()
         {
+            ViewBag.Equipes = equipeModel.ReadAll();
             ViewBag.Jogadores = jogadorModel.ReadAll();
             return View();
         }
@@ -33,8 +35,17 @@ namespace E_Players_AspNETCore.Controllers
             jogadorModel.Create(novoJogador);            
             ViewBag.Jogadores = jogadorModel.ReadAll();
 
-            return LocalRedirect("~/Jogador");
+            return LocalRedirect("~/Jogador/Listar");
         }
+
+        [Route("{id}")]
+        public IActionResult Excluir(int id)
+        {
+            jogadorModel.Delete(id);
+            ViewBag.Jogador = jogadorModel.ReadAll();
+            return LocalRedirect("~/Jogador/Listar");
+        }
+
 
 
     }

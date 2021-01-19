@@ -35,3 +35,4 @@ C:\Users\JoViO\OneDrive\Documentos\GitHub\E-Players_AspNETCore\obj\Debug\netcore
 C:\Users\JoViO\OneDrive\Documentos\GitHub\E-Players_AspNETCore\obj\Debug\netcoreapp3.1\E-Players_AspNETCore.csproj.CopyComplete
 C:\Users\JoViO\OneDrive\Documentos\GitHub\E-Players_AspNETCore\obj\Debug\netcoreapp3.1\Razor\Views\Equipe\Index.cshtml.g.cs
 C:\Users\JoViO\OneDrive\Documentos\GitHub\E-Players_AspNETCore\obj\Debug\netcoreapp3.1\Razor\Views\Jogador\Index.cshtml.g.cs
+C:\Users\JoViO\OneDrive\Documentos\GitHub\E-Players_AspNETCore\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
